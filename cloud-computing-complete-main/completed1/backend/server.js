@@ -14,7 +14,7 @@ console.log(`Allowing requests from: ${frontendUrl}`);
 const app = express();
 app.use(cors({
   origin: [
-    'https://cloud-computing-complete.vercel.app', // Your live frontend
+    'https://cloud7-psi.vercel.app/', // Your live frontend
     'http://localhost:3000' // Keep for local development
   ],
   credentials: true
